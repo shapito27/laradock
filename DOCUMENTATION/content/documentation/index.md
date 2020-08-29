@@ -1013,7 +1013,7 @@ docker-compose up -d gitlab
 2 - Open the `.env` file and set the following changes:
 ```
 # so that gitlab container will pass the correct domain to gitlab-runner container
-GITLAB_DOMAIN_NAME=http://gitlab
+GITLAB_DOMAIN_NAME=http://gitlab.com/
 
 GITLAB_RUNNER_REGISTRATION_TOKEN=<value-in-step-1>
 
